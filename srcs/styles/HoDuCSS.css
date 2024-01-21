@@ -1,0 +1,535 @@
+body {
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #F2E9D8;
+
+    .contents {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.hodu {
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+}
+
+.Home {
+    margin-left: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    height: 30px;
+    font-family: Pretendard;
+    background-color: #F2E9D8;
+}
+
+.About {
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    height: 30px;
+    font-family: Pretendard;
+    background-color: #F2E9D8;
+}
+
+.Support {
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    height: 30px;
+    font-family: Pretendard;
+    background-color: #F2E9D8;
+}
+
+.Download {
+    margin-left: 30px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #D97652;
+}
+
+.text_kr {
+    font-family: Pretendard;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+}
+
+.text_en {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+
+.mainphoto {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 350px;
+}
+
+.taeyun {
+    width: 100px;
+    height: 100px;
+}
+
+.us {
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+/*여기까지가 intro section 입니다!*/
+
+.showbox {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .signature {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.together {
+    width: 550px;
+    height: 350px;
+    border-radius: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px 30px 0px #00000040;
+}
+
+.word {
+    font-family: Pretendard;
+    font-size: 25px;
+    line-height: 45px;
+    margin: 90px;
+}
+
+.nextword {
+    font-family: Pretendard;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.galleryintro {
+    font-family: Pretendard;
+    font-size: 45px;
+    font-weight: 700px;
+    padding: 10px;
+    color: #D97652;
+}
+
+.additional {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    color: #222222;
+}
+
+/* 기본적인 스타일링 */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 이미지 사이의 간격 */
+    padding: 0 200px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px);
+    height: 0;
+    padding-bottom: calc(33.33% - 20px); /* 1:1 비율로 설정 */
+    border-radius: 30px; /* 이미지의 border radius */
+    overflow: hidden; /* border radius 적용을 위한 설정 */
+    box-shadow: 10px 10px 30px 0px #00000040; /* 그림자 효과 */
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px; /* 이미지의 border radius */
+}
+
+#continueExploring {
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#showMoreBtn {
+    margin: 20px;
+    letter-spacing: 0em;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #D97652;
+}
+
+.line {
+    width: 1278px;
+    height: 1px;
+    color: #C4C4C4;
+    margin: 20px auto;
+}
+
+.locate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 200px;
+    margin-bottom: 100px;
+}
+
+.where {
+    font-family: Pretendard;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.location {
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #606367;
+}
+
+.another {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 1120px;
+    height: 200px;
+    background-color: rgba(38, 49, 64, 1);
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.allinone {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog {
+    font-family: Pretendard;
+    font-size: 30px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.blog_plus {
+    font-family: Pretendard;
+    font-size: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2E9D8;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 60px;
+    border-radius: 60px;
+    margin-left: 70px;
+    background-color: #ffffff;
+}
+
+.mailbox {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#inputemail {
+    width: 300px;
+    height: 40px;
+    font-family: Pretendard;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+#subscribepleaseeeeee {
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    gap: 10px;
+    font-family: Pretendard;
+    color: white;
+    background-color: #D97652;
+    margin-right: 5px;
+}
+
+.long {
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+    margin-top: -100px;
+    z-index: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#subscribepleaseeeeee {
+    cursor: pointer;
+}
+
+/*이 아래의 footercss는 외부 자료를 참고하여 작성됨*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: acumin-pro, system-ui, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    align-items: start;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+    flex: 1 100%;
+}
+
+.footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav__title {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer address {
+    font-style: normal;
+    color: #999;
+}
+
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.nav__ul a {
+    color: #999;
+}
+
+.nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+}
+
+.legal__links {
+    display: flex;
+    align-items: center;
+}
+
+.heart {
+    color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+        flex: 1;
+    }
+
+    .nav__item--extra {
+        flex-grow: 2;
+    }
+
+    .footer__addr {
+        flex: 1 0px;
+    }
+
+    .footer__nav {
+        flex: 2 0px;
+    }
+}
