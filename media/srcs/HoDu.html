@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KF</title>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ff6c577c2bea843deb58e8ae8777542d"></script>
+  <script type="text/javascript" src="scripts/HoDuJS.js"></script>
+  <link rel="stylesheet" href="styles/HoDuCSS.css">
+</head>
+<body>
+<div class="intro">
+  <div class="contents">
+    <img class="hodu" src="../images/KFlogo.png"/>
+    <div class="buttons">
+      <button class="Home" type="button" alt="홈으로이동">Home</button>
+      <button class="About" type="button" alt="개요">About</button>
+      <button class="Support" type="button" alt="지원">Support</button>
+      <button class="Download" type="button" alt="다운받기">Download</button>
+    </div>
+  </div>
+  <div class="main">
+    <div class="textbox">
+      <span class="text_kr"><b>2013년부터 지금까지 이어져 온<br>
+        우리들의 추억들을 이곳에</b></span>
+      <span class="text_en">JongHo Park created this page to show our memories of the 2013 <br>
+        gosaek high school to Kim Gun-hyuk's son,
+        who will be born in 2024. <br>
+        and see you soon BBang-jji!</span>
+    </div>
+  </div>
+  <div class="mainphoto">
+    <img class="taeyun" src="../images/KakaoTalk_20240117_153134620.png" alt="김태윤"/>
+    <img class="us" src="../images/KakaoTalk_20240117_152524109.png" alt="외4명"/>
+  </div>
+</div>
+</div>
+<section class="showbox">
+  <div class="signature">
+    <img class="together" src="../images/KakaoTalk_20240117_221509569_03.jpg" />
+    <p class="word">
+      Life is like a box of chocolates,<br>
+      you never know what you're gonna get.<br>
+      <span class="nextword">
+        우리의 앞으로 일어날 모든 일들이 행복했으면 좋겠어🐂
+      </span>
+    </p>
+  </div>
+  <p class="galleryintro">
+    현재진행형인 우리들의 추억을 보여드립니다<br>
+    <span class="additional">
+      13년동안 함께하며 본모습이 보여진다면 어딜 내놓아도 부끄러운
+      5명의 친구들의 이야기를 이 페이지에소개합니다.
+    </span>
+  </p>
+  <div id="gallery"></div>
+  <div id="continueExploring">Continue exploring KF</div>
+  <button id="showMoreBtn">Show More</button>
+</section>
+<div class="line"></div>
+<section class="locate">
+  <p class="where">
+    Where you'll be<br>
+    <span class="location">
+      63, Wauro 34beon-gil, Bongdam-eup,
+      Hwaseong-si, Gyeonggi-do, Republic of Korea
+    </span>
+  </p>
+  <div id="map" style="width:100%;height:400px;"></div>
+  <script>
+    let mapContainer = document.getElementById('map');
+    let mapOption = {
+      center: new kakao.maps.LatLng(37.212968837804944, 126.97307994037904),
+      level: 3
+    };
+    let map = new kakao.maps.Map(mapContainer, mapOption);
+  </script>
+</section>
+<div class="another">
+  <div class="box">
+    <div class="allinone">
+      <div class="pleasesub">
+        <span class="blog"> 정기 구독으로 하찮은 사진들을 저장하기! <br>
+        <span class="blog_plus"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+        Lorem Ipsum has been the industry's standard dummy text
+          </span>
+        </span>
+      </div>
+      <div class="email">
+        <img class="mailbox" src="../images/mail.png"/>
+        <input id="inputemail" type="email" placeholder="Enter your e-mail address">
+        <button id="subscribepleaseeeeee">subscibe</button>
+      </div>
+    </div>
+  </div>
+</div>
+<img class="long" src="../images/1757030254559bcbb8773b5.jpg"/>
+</body>
+<footer class="footer">
+  <!--  footer는 외부 자료를 참고하여 작성했습니다-->
+  <div class="footer__addr">
+    <h1 class="footer__logo">Something</h1>
+
+    <h2>Contact</h2>
+
+    <address>
+      Kian-dong, Hwaseong-si, Gyeonggi-do, Rupublic Of Korea<br>
+
+      <a class="footer__btn" href="jhpark3405@gmail.com">Email Us</a>
+    </address>
+  </div>
+
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">YouTube</a>
+        </li>
+
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+
+        <li>
+          <a href="#">GitHub</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Partners</h2>
+
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Kim Kun Hyuk (쌍용정보통신)</a>
+        </li>
+
+        <li>
+          <a href="#">YIM Jong Ryul (SSAFY)</a>
+        </li>
+
+        <li>
+          <a href="#">Kim Tae Yun (덴티움)</a>
+        </li>
+
+        <li>
+          <a href="#">Park Jin Sung (삼성중공업)</a>
+        </li>
+      </ul>
+    </li>
+
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="legal">
+    <p>&copy; 2024 Will be Happy. All Is Well.</p>
+
+  </div>
+  </div>
+</footer>
+</html>
