@@ -430,6 +430,7 @@ body {
     color: #FFFFFF;
     background: #D97652;
     border: none;
+    border-radius: 20px;
     z-index: 99;
 }
 
