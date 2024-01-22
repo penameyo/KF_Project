@@ -97,8 +97,19 @@
     </div>
 </div>
 <button id="to-top-button">UP!</button>
-<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f4f018c17faed186187c9b0ea8946d5a"></script>
+
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9efa957bc01f174920545484c9848283">
+</script>
+
+<script> let mapContainer = document.getElementById('map');
+        let mapOption = {
+        center: new kakao.maps.LatLng(37.212968837804944, 126.97307994037904),
+        level: 3
+        };
+        let map = new kakao.maps.Map(mapContainer, mapOption);</script>
+
 <script src="scripts/HoDuJS.js"></script>
+
 </body>
 
 <footer class="footer">
