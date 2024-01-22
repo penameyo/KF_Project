@@ -70,5 +70,5 @@ fooeter까지 구현하는데에 성공했다.
 
 이렇게 개인프로젝트 진행을 통해 개발에 익숙해지는 계기가 되었다.
 비록 만족할 만한 결과물을 얻지 못할지라도 발전의 밑거름이 된다면 이를 관성으로 삼아 더 성장하겠다는 마음가짐까지 얻는 시간이 되었다!
-![c788138cf85c69a5bcb553ab63eccd4f](https://github.com/penameyo/KF_Project/assets/144550767/ded5f828-db8e-4515-bfeb-5e34f7345551)
+![c788138cf85c69a5bcb553ab63eccd4f](https://github.com/penameyo/KF_Project/assets/144550767/ded5f828-db8e-4515-bfeb-5e34f7345551) <br>
 (눈에서 땀이 조금 나지만 진짜 괜찮음;)
