@@ -87,13 +87,6 @@ function showImages() {
     }
 }
 
-let mapContainer = document.getElementById('map');
-let mapOption = {
-    center: new kakao.maps.LatLng(37.212968837804944, 126.97307994037904),
-    level: 3
-};
-let map = new kakao.maps.Map(mapContainer, mapOption);
-
 const modal = document.getElementById("modal");
 const openModalBtn = document.getElementById("subscribepleaseeeeee");
 const closeModalBtn = document.getElementById("close-modal");
